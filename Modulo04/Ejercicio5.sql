@@ -7,7 +7,7 @@ SELECT * FROM empleados;                                                        
 
 SELECT nombre, apellido FROM empleados;                                                                       --d)
 
-SELECT cuil_cuit FROM empleados;                                                                                --e) VER
+SELECT cuil_cuit FROM empleados e INNER JOIN departamentos d ON e.departamento = d.departamento_id;            --e)
 
 SELECT CONCAT(nombre, ' ', apellido) as 'Nombre y Apellido' FROM empleados;                                     --f) 
 
