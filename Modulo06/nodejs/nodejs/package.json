@@ -1,0 +1,12 @@
+{
+  "name": "mi-primer-package",
+  "version": "1.0.0",
+  "description": "Un paquete que imprime un mensaje en la terminal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucrecia Sabrina Mencia",
+  "license": "ISC"
+}
